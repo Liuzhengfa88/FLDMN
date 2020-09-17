@@ -6,7 +6,7 @@ dataset = "cityscape"
 begin_epoch =9
 end_epoch =9
 
-model_prefix = "./FLDMN/cityscape/model_v5.0/cityscape_"
+model_prefix = "./FLDMN/cityscape/model/cityscape_"
 
 commond = "./FLDMN/eval/test.py --net {} --cuda --dataset {} --part {} --model_dir {}".format(net, dataset, part, model_prefix)
 
