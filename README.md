@@ -29,6 +29,8 @@ All codes are written to fit for the **format of PASCAL_VOC**.
 ### Data Augmentation
 We use [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) to generate the transferred samples for both source and target domains, and then train the model with original and transferred images.
 
+The images before and after augmentation are large to be submitted, 
+
 ## Models
 ### Pre-trained Models
 In our experiments, we used two pre-trained models on ImageNet, i.e., VGG16 and ResNet101. Please download these two models from:
@@ -52,3 +54,6 @@ CUDA_VISIBLE_DEVICES=$GPU_ID \
        --dataset source_dataset/target_dataset \
        --net vgg16/resnet101  \
        --model_prefix path_to_model
+       
+## Apply a pre-trained model (CycleGAN)
+```
