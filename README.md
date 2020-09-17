@@ -44,6 +44,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID \
        python da_trainval_net.py \
        --dataset source_dataset/target_dataset \
        --net vgg16/resnet101 
+       --pretrained_path path_to_pre-trained-model
 ```
 ## Test
 ```
