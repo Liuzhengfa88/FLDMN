@@ -30,7 +30,7 @@ All codes are written to fit for the **format of PASCAL_VOC**.
 We use [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) to generate the transferred samples for both source and target domains, and then train the model with original and transferred images.
 
 ### Data Download
-**The images before and after augmentation are too large to upload, but will be released soon.**
+**Due to the size limitation of uploaded data, we will release the data before and after augmentation upon acceptance.**
 
 ## Models
 ### Pre-trained Models
@@ -39,7 +39,7 @@ In our experiments, we used two pre-trained models on ImageNet, i.e., VGG16 and 
 
 * **ResNet101:** [Dropbox](https://www.dropbox.com/s/iev3tkbz5wyyuz9/resnet101_caffe.pth?dl=0)  [VT Server](https://filebox.ece.vt.edu/~jw2yang/faster-rcnn/pretrained-base-models/resnet101_caffe.pth)
 
-**The pre-trained FLDMN models are too large to upload, but will be released soon.**
+**Due to the size limitation of uploaded data, we will release the pre-trained FLDMN models upon acceptance.**
 
 ## Train
 ```
