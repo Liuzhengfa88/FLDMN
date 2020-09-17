@@ -30,7 +30,7 @@ All codes are written to fit for the **format of PASCAL_VOC**.
 We use [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) to generate the transferred samples for both source and target domains, and then train the model with original and transferred images.
 
 ### Data Download
-**The images before and after augmentation are large to be submitted, but will be released soon.**
+**The images before and after augmentation are too large to upload, but will be released soon.**
 
 ## Models
 ### Pre-trained Models
@@ -38,6 +38,8 @@ In our experiments, we used two pre-trained models on ImageNet, i.e., VGG16 and 
 * **VGG16:** [Dropbox](https://www.dropbox.com/s/s3brpk0bdq60nyb/vgg16_caffe.pth?dl=0)  [VT Server](https://filebox.ece.vt.edu/~jw2yang/faster-rcnn/pretrained-base-models/vgg16_caffe.pth)
 
 * **ResNet101:** [Dropbox](https://www.dropbox.com/s/iev3tkbz5wyyuz9/resnet101_caffe.pth?dl=0)  [VT Server](https://filebox.ece.vt.edu/~jw2yang/faster-rcnn/pretrained-base-models/resnet101_caffe.pth)
+
+**The pretrain FLDMN models are too large to upload, but will be released soon.**
 
 ## Train
 ```
@@ -56,8 +58,4 @@ CUDA_VISIBLE_DEVICES=$GPU_ID \
        --net vgg16/resnet101  \
        --model_prefix path_to_model
 
-
-
-```
-## Apply the pre-trained model
 
