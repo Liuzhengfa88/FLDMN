@@ -29,7 +29,8 @@ All codes are written to fit for the **format of PASCAL_VOC**.
 ### Data Augmentation
 We use [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) to generate the transferred samples for both source and target domains, and then train the model with original and transferred images.
 
-The images before and after augmentation are large to be submitted, 
+### Data Download
+**The images before and after augmentation are large to be submitted, but will be released soon.**
 
 ## Models
 ### Pre-trained Models
