@@ -54,6 +54,9 @@ CUDA_VISIBLE_DEVICES=$GPU_ID \
        --dataset source_dataset/target_dataset \
        --net vgg16/resnet101  \
        --model_prefix path_to_model
-       
-## Apply a pre-trained model (CycleGAN)
+
+
+
 ```
+## Apply the pre-trained model
+
