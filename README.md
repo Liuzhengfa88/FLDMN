@@ -41,8 +41,8 @@ In our experiments, we used two pre-trained models on ImageNet, i.e., VGG16 and 
 CUDA_VISIBLE_DEVICES=$GPU_ID \
        python da_trainval_net.py \
        --dataset source_dataset/target_dataset \
-       --net vgg16/resnet101 
-       --pretrained_path path_to_pre-trained-model
+       --net vgg16/resnet101 \
+       --pretrained_path path_to_pre-trained-model \
        --save_dir path_to_save-model
 ```
 ## Test
