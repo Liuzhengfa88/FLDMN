@@ -36,8 +36,6 @@ In our experiments, we used two pre-trained models on ImageNet, i.e., VGG16 and 
 
 * **ResNet101:** [Dropbox](https://www.dropbox.com/s/iev3tkbz5wyyuz9/resnet101_caffe.pth?dl=0)  [VT Server](https://filebox.ece.vt.edu/~jw2yang/faster-rcnn/pretrained-base-models/resnet101_caffe.pth)
 
-Download them and write the path in **--pretrained_path**  at ```da_trainval_net.py```.
-
 ## Train
 ```
 CUDA_VISIBLE_DEVICES=$GPU_ID \
