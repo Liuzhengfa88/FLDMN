@@ -43,6 +43,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID \
        --dataset source_dataset/target_dataset \
        --net vgg16/resnet101 
        --pretrained_path path_to_pre-trained-model
+       --save_dir path_to_save-model
 ```
 ## Test
 ```
