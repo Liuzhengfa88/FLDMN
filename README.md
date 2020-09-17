@@ -3,7 +3,7 @@
 
 
 This repository is the official PyTorch implementation of paper [FLDMN: Feature and Label Distributions Matching Networks for Cross-domain
-Object Detection](). (The work has been accepted by [AAAI2021](http://cvpr2020.thecvf.com/))
+Object Detection](). (The work has been submitted to [AAAI2021](https://aaai.org/Conferences/AAAI-21/aaai21call/))
 
 ## Main requirements
 
